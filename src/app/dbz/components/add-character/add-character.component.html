@@ -1,0 +1,11 @@
+<h4>Agregar personaje</h4>
+<form class="row" (ngSubmit)="emitCharacter()">
+
+    <!-- ngModel asocia el valor del input a la variable que se ponga. Sera en ambos sentidos, si cambiamos la variable se verá afectado el imput y viceversa-->
+    <input type="text" [(ngModel)]="character.name" name="name" class="form-control" placeholder="Nombre">
+    <input type="number" [(ngModel)]="character.power" name="power" class="form-control" placeholder="Poder">
+    <button type="submit" class="btn btn-primary">Agregar</button>
+
+    <!-- <pre>{{ character | json }}</pre> -->
+    <!-- Imprime el objeto en forma de json-->
+</form>

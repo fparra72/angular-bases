@@ -11,7 +11,7 @@ import { ListComponent } from "./list/list.component";
     HeroComponent,
     ListComponent
   ],
-  exports: [ // componentes que se pueden usar de este modlo en otros modulos
+  exports: [ // componentes que se pueden usar de este modulo en otros modulos
     HeroComponent,
     ListComponent
   ],
